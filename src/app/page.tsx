@@ -5,12 +5,12 @@ import LightPurpleButton from '@/components/Buttons/LightPurpleButton';
 
 const Homepage: FC = () => {
   return (
-    <div className="flex justify-center items-center h-screen w-full  sm:w-[80%] mx-auto">
+    <div className="flex justify-center items-center h-screen w-full sm:w-[80%] mx-auto">
       <div className="flex flex-col md:flex-row gap-4">
         <div className="flex justify-center flex-1">
           <Image src='/students.svg' alt="students" height={12} width={12} className="w-full h-auto hidden md:block" />
         </div>
-        <div className="flex flex-1 flex-col justify-center items-center  p-6">
+        <div className="flex flex-1 flex-col justify-center items-center p-6">
           <div className="bg-white p-6 h-screen flex flex-col justify-center">
             <h1 className="text-3xl font-bold text-gray-900">
               Welcome to
@@ -32,7 +32,7 @@ const Homepage: FC = () => {
               </Link>
 
               <p className="text-center">
-                Don't have an account?{' '}
+                Don&apos;t have an account?
                 <Link href="/adminRegister" className="text-purple-900">
                   Sign up
                 </Link>
