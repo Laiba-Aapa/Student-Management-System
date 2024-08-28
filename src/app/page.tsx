@@ -32,7 +32,7 @@ const Homepage: FC = () => {
               </Link>
 
               <p className="text-center">
-                Don't have an account?{' '}
+                Don&apos;t have an account?
                 <Link href="/adminRegister" className="text-purple-900">
                   Sign up
                 </Link>
